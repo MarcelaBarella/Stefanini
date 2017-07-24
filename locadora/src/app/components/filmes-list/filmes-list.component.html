@@ -1,0 +1,11 @@
+<div class="container">
+	<div class="o-fb-grid o-fb-grid--gutters">
+		<div class="o-fb-grid__cell" *ngFor="let filme of filmes">
+			<a href="" target="_blank" class="o-fb-grid__link">
+				<img class="o-fb-grid__img" src="assets/Posters/{{ filme.Image }}">
+				<span class="o-fb-grid__text">{{ filme.Name }}</span>
+				<div class="o-fb-grid__hovertext">{{ filme.Name }}</div>
+			</a>
+		</div>
+	</div>
+</div>
